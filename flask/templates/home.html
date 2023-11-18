@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>My College</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: lightslategray;
+   color: white;
+}
+* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: lightblue;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+
+</style>
+</head>
+
+
+
+
+<body>
+
+
+<div class="header">
+  <h1><bold>Visvesvaraya Technological University</bold></h1>
+<img src="https://online.vtu.ac.in/uploads/minor_degree/1690178288-pfgBL9dte9.jpg"width="1000" height="600">
+
+  <p><h3>Mysore Region</h3></p>
+
+
+</div>
+
+<div class="navbar">
+  <a href="#">Home</a>
+  <a href="/department">Department</a>
+  <a href="/Student Corner">Student Corner</a>
+  
+</div>
+
+
+</div>
+<div class="row">
+  <div class="side">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li>MCA</li>
+
+      <li>MBA</li>
+
+      <li>Mtec</li>
+
+      <li>Computer science Engineering</li>
+
+      <li>Civil Engineering</li>
+
+      <li>Electronics and Communication</li>
+
+      <li>Mechanical Engineering</li>
+
+    </ul>
+    
+    
+    <h3>Activities</h3>
+   
+    <div class="fakeimg" style="height:60px;">Sports</div><br>
+    <div class="fakeimg" style="height:60px;">Cultural</div><br>
+    <div class="fakeimg" style="height:60px;">Other</div>
+  </div>
+  <div class="main">
+    <h2>ABOUT VTU</h2>
+    
+    <div class="fakeimg" style="height:300px;">Visvesvaraya Technological University (VTU), previously spelled Visveswaraiah Technological University, is a collegiate public state university in Belagavi, Karnataka established by the Government of Karnataka. All colleges in the State of Karnataka imparting education in Engineering or Technology, except those that have the consent of VTU and sanction of the Government, are required to be affiliated with Visvesvaraya Technological University, Belagavi.[10] The university is named after Sir M. Visvesvaraya, an Indian civil engineer, statesman and the 19th Diwan of Mysore. VTU is one of the largest technical universities which provides opportunities for engineering students and management students.
+Visvesvaraya Technological University (VTU) was established by the Government of Karnataka on 1 April 1998 with its headquarters at Belagavi, as per the provisions of the Visvesvaraya Technological University Act, 1994, an Act to establish and incorporate a university in the State of Karnataka for the development of engineering, technology and allied sciences. For effective administration, four regional offices at the four revenue divisional headquarters, namely, Belagavi, Bangalore, Mysore and Gulbarga were established. VTU was established by the Government in order to promote planned and sustainable development of technical education consistent with state and national policies and bringing various colleges affiliated earlier to different universities, with different syllabi, different procedures and different traditions under one umbrella.
+</div>
+
+    <a href="https://vtu.ac.in/"><center>Visit VTU Website</center></a>
+    <br>
+
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlsfG-dbtex3Qsfl_UrTtyfFMHNd0EVMH_GRIFnJlPsPUeXl0zLopbSEXM5AoWARDb2eVNptQvzfuknlTlUw6krPxMbXeccj6Nk5veRHFva12dDYox-CmSIIpNGRezSOIlrw8spS5pxJraS0u75yLiCqqD4ZSYK2ymHwpxBMzFJAO3jE6YxL6dL9qV9ra8/w320-h153/PANO_20221230_175454.jpg" width="1400" height="400">
+    
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://vtu.ac.in/"><marquee>Click for More Info</marquee></a>
+</div>
+
+</body>
+
+</html>
